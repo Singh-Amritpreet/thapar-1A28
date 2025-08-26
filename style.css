@@ -1,0 +1,40 @@
+html {
+    font-family: "Comfortaa", sans-serif;
+    background: rgb(43, 43, 43);
+}
+
+body {
+    margin: 0px;
+    background-image: url('./back.jpg');
+    background-repeat: no-repeat;     /* Prevents repeating */
+    background-size: cover;          /* Makes it cover the entire area */
+    background-position: center;     /* Centers the image */
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    margin: 0px;
+}
+
+#main > * {
+    justify-content: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    font-size: 5rem;
+    font-weight: 700;
+}
