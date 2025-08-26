@@ -5,10 +5,10 @@ html {
 
 body {
     margin: 0px;
-    background-image: url('./back.jpg');
-    background-repeat: no-repeat;     /* Prevents repeating */
-    background-size: cover;          /* Makes it cover the entire area */
-    background-position: center;     /* Centers the image */
+    background-image: url('./assets/back.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover;         
+    background-position: center;     
 }
 
 #main {
